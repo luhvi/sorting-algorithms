@@ -19,7 +19,7 @@ int main() {
       
       if (const auto* keyPressed = event->getIf<sf::Event::KeyPressed>())
       {
-        if (keyPressed->code == sf::Keyboard::Key::Escape) // Fixed: Escape not Espace
+        if (keyPressed->code == sf::Keyboard::Key::Escape)
         {
           window.close();
         }
