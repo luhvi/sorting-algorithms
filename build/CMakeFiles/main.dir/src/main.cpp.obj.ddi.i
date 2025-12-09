@@ -124252,16 +124252,32 @@ private:
 }
 # 41 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network.hpp" 2 3 4
 # 8 "C:/projects/sorting-algorithms/src/main.cpp" 2
+# 1 "C:/projects/sorting-algorithms/include/sort_visualizer.h" 1
+       
 
 
-# 9 "C:/projects/sorting-algorithms/src/main.cpp"
+
+# 4 "C:/projects/sorting-algorithms/include/sort_visualizer.h"
+class SortVisualizer {
+  public:
+    int myNum{};
+    std::string myString{};
+};
+# 9 "C:/projects/sorting-algorithms/src/main.cpp" 2
+
 int main() {
   sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
 
-  const int dataSize { 50 };
+  SortVisualizer bubbleSort;
+  bubbleSort.myNum = 15;
+  bubbleSort.myString = "Example";
+
+  std::cout << bubbleSort.myNum << "\n" << bubbleSort.myString << "\n";
+
+  constexpr int dataSize{50};
   sf::RectangleShape cols[dataSize];
 
-  for (int i = 0; i < dataSize; i++)
+  for (int i{0}; i < dataSize; i++)
   {
     const float height = (i + 1) * 8.0f;
     cols[i].setSize(sf::Vector2f(10.0f, height));
