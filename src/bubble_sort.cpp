@@ -1,5 +1,5 @@
 #include <iostream>
-#include "bubblesort.h"
+#include "bubble_sort.h"
 
 void bubbleSort()
 {

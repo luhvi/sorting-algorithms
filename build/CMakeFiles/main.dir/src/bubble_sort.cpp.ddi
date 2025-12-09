@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/main.dir/src/bubble_sort.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

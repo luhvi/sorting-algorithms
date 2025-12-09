@@ -5,7 +5,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
-#include "bubblesort.h"
+#include "bubble_sort.h"
 
 int main() {
   bubbleSort();
