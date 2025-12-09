@@ -27,9 +27,9 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(freetype-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/freetype/freetype.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "VER-2-13-2" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "C:/mingw64/bin/cmake.exe" "-DFREETYPE_DIR=C:/projects/sfml-game/build/_deps/freetype-src" "-P" "C:/projects/sfml-game/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake"
-                    SOURCE_DIR          "C:/projects/sfml-game/build/_deps/freetype-src"
-                    BINARY_DIR          "C:/projects/sfml-game/build/_deps/freetype-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/freetype/freetype.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "VER-2-13-2" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "C:/mingw64/bin/cmake.exe" "-DFREETYPE_DIR=C:/projects/sorting-algorithms/build/_deps/freetype-src" "-P" "C:/projects/sorting-algorithms/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake"
+                    SOURCE_DIR          "C:/projects/sorting-algorithms/build/_deps/freetype-src"
+                    BINARY_DIR          "C:/projects/sorting-algorithms/build/_deps/freetype-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

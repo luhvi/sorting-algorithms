@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/projects/sfml-game/build/_deps/sfml-subbuild/cmake_install.cmake"
+		"C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -5,15 +5,21 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
 
+int bubbleSort()
+{
+  std::cout << "Bubble Sort!";
+  return 0;
+}
+
 int main() {
   sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
 
-  int dataSize { 50 };
+  const int dataSize { 50 };
   sf::RectangleShape cols[dataSize];
 
   for (int i = 0; i < dataSize; i++)
   {
-    float height = (i + 1) * 8.f;
+    const float height = (i + 1) * 8.f;
     cols[i].setSize(sf::Vector2f(10.f, height));
     cols[i].setFillColor(sf::Color::Green);
     cols[i].setPosition(sf::Vector2f(10.f + (i * 12), 480.f - height));

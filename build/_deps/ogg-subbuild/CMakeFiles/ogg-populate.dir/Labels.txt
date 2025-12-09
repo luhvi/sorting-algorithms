@@ -1,14 +1,14 @@
 # Target labels
  ogg-populate
 # Source files and their labels
-C:/projects/sfml-game/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate
-C:/projects/sfml-game/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule
-C:/projects/sfml-game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule
+C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule
