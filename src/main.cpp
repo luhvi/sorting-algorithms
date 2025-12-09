@@ -5,11 +5,8 @@
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
-#include "bubble_sort.h"
 
 int main() {
-  bubbleSort();
-
   sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
 
   const int dataSize { 50 };

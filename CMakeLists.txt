@@ -12,7 +12,7 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(main src/main.cpp src/bubble_sort.cpp)
+add_executable(main src/main.cpp src/sort_visualizer.cpp)
 target_include_directories(main PRIVATE include)
 target_compile_features(main PRIVATE cxx_std_23)
 target_link_libraries(main PRIVATE SFML::Graphics)

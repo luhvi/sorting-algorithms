@@ -352,5 +352,4 @@ CMakeFiles\main.dir\src\main.cpp.obj.ddi: \
  C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/Packet.hpp \
  C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/SocketSelector.hpp \
  C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/TcpListener.hpp \
- C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/UdpSocket.hpp \
- C:/projects/sorting-algorithms/include/bubble_sort.h
+ C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/UdpSocket.hpp

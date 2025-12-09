@@ -124252,17 +124252,10 @@ private:
 }
 # 41 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network.hpp" 2 3 4
 # 8 "C:/projects/sorting-algorithms/src/main.cpp" 2
-# 1 "C:/projects/sorting-algorithms/include/bubble_sort.h" 1
-       
 
 
-# 3 "C:/projects/sorting-algorithms/include/bubble_sort.h"
-void bubbleSort();
-# 9 "C:/projects/sorting-algorithms/src/main.cpp" 2
-
+# 9 "C:/projects/sorting-algorithms/src/main.cpp"
 int main() {
-  bubbleSort();
-
   sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
 
   const int dataSize { 50 };

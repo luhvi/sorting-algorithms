@@ -64,19 +64,19 @@ build CMakeFiles/main.dir/src/main.cpp.obj: CXX_COMPILER__main_scanned_ C$:/proj
   TARGET_SUPPORT_DIR = CMakeFiles\main.dir
   dyndep = CMakeFiles/main.dir/CXX.dd
 
-build CMakeFiles/main.dir/src/bubble_sort.cpp.obj.ddi: CXX_SCAN__main_ C$:/projects/sorting-algorithms/src/bubble_sort.cpp || cmake_object_order_depends_target_main
+build CMakeFiles/main.dir/src/sort_visualizer.cpp.obj.ddi: CXX_SCAN__main_ C$:/projects/sorting-algorithms/src/sort_visualizer.cpp || cmake_object_order_depends_target_main
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\main.dir\src\bubble_sort.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\main.dir\src\bubble_sort.cpp.obj.ddi
+  DEP_FILE = CMakeFiles\main.dir\src\sort_visualizer.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\main.dir\src\sort_visualizer.cpp.obj.ddi
   FLAGS = -std=gnu++23
   INCLUDES = -IC:/projects/sorting-algorithms/include -isystem C:/projects/sorting-algorithms/build/_deps/sfml-src/include
-  OBJ_FILE = CMakeFiles\main.dir\src\bubble_sort.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\main.dir\src\bubble_sort.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\main.dir\src\sort_visualizer.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\main.dir\src\sort_visualizer.cpp.obj.ddi.i
 
-build CMakeFiles/main.dir/src/bubble_sort.cpp.obj: CXX_COMPILER__main_scanned_ C$:/projects/sorting-algorithms/src/bubble_sort.cpp | CMakeFiles/main.dir/src/bubble_sort.cpp.obj.modmap || cmake_object_order_depends_target_main CMakeFiles/main.dir/CXX.dd
+build CMakeFiles/main.dir/src/sort_visualizer.cpp.obj: CXX_COMPILER__main_scanned_ C$:/projects/sorting-algorithms/src/sort_visualizer.cpp | CMakeFiles/main.dir/src/sort_visualizer.cpp.obj.modmap || cmake_object_order_depends_target_main CMakeFiles/main.dir/CXX.dd
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\main.dir\src\bubble_sort.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\main.dir\src\bubble_sort.cpp.obj.modmap
+  DEP_FILE = CMakeFiles\main.dir\src\sort_visualizer.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\main.dir\src\sort_visualizer.cpp.obj.modmap
   FLAGS = -std=gnu++23
   INCLUDES = -IC:/projects/sorting-algorithms/include -isystem C:/projects/sorting-algorithms/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\main.dir
@@ -84,7 +84,7 @@ build CMakeFiles/main.dir/src/bubble_sort.cpp.obj: CXX_COMPILER__main_scanned_ C
   TARGET_SUPPORT_DIR = CMakeFiles\main.dir
   dyndep = CMakeFiles/main.dir/CXX.dd
 
-build CMakeFiles/main.dir/CXX.dd | CMakeFiles/main.dir/CXXModules.json CMakeFiles/main.dir/src/main.cpp.obj.modmap CMakeFiles/main.dir/src/bubble_sort.cpp.obj.modmap: CXX_DYNDEP__main_ CMakeFiles/main.dir/src/main.cpp.obj.ddi CMakeFiles/main.dir/src/bubble_sort.cpp.obj.ddi | C$:/projects/sorting-algorithms/build/CMakeFiles/main.dir/CXXDependInfo.json
+build CMakeFiles/main.dir/CXX.dd | CMakeFiles/main.dir/CXXModules.json CMakeFiles/main.dir/src/main.cpp.obj.modmap CMakeFiles/main.dir/src/sort_visualizer.cpp.obj.modmap: CXX_DYNDEP__main_ CMakeFiles/main.dir/src/main.cpp.obj.ddi CMakeFiles/main.dir/src/sort_visualizer.cpp.obj.ddi | C$:/projects/sorting-algorithms/build/CMakeFiles/main.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -94,7 +94,7 @@ build CMakeFiles/main.dir/CXX.dd | CMakeFiles/main.dir/CXXModules.json CMakeFile
 #############################################
 # Link the executable bin\main.exe
 
-build bin/main.exe: CXX_EXECUTABLE_LINKER__main_ CMakeFiles/main.dir/src/main.cpp.obj CMakeFiles/main.dir/src/bubble_sort.cpp.obj | _deps/sfml-build/lib/libsfml-graphics.a _deps/sfml-build/lib/libsfml-window.a _deps/sfml-build/lib/libsfml-system.a _deps/sfml-build/lib/libfreetype.a || _deps/sfml-build/lib/libfreetype.a _deps/sfml-build/lib/libsfml-graphics.a _deps/sfml-build/lib/libsfml-system.a _deps/sfml-build/lib/libsfml-window.a
+build bin/main.exe: CXX_EXECUTABLE_LINKER__main_ CMakeFiles/main.dir/src/main.cpp.obj CMakeFiles/main.dir/src/sort_visualizer.cpp.obj | _deps/sfml-build/lib/libsfml-graphics.a _deps/sfml-build/lib/libsfml-window.a _deps/sfml-build/lib/libsfml-system.a _deps/sfml-build/lib/libfreetype.a || _deps/sfml-build/lib/libfreetype.a _deps/sfml-build/lib/libsfml-graphics.a _deps/sfml-build/lib/libsfml-system.a _deps/sfml-build/lib/libsfml-window.a
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics.a  _deps/sfml-build/lib/libsfml-window.a  _deps/sfml-build/lib/libsfml-system.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-build/lib/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .

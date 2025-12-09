@@ -22,15 +22,15 @@
 	"module-dir" : "C:/projects/sorting-algorithms/build/CMakeFiles/main.dir",
 	"sources" : 
 	{
-		"CMakeFiles/main.dir/src/bubble_sort.cpp.obj" : 
-		{
-			"language" : "CXX",
-			"source" : "C:/projects/sorting-algorithms/src/bubble_sort.cpp"
-		},
 		"CMakeFiles/main.dir/src/main.cpp.obj" : 
 		{
 			"language" : "CXX",
 			"source" : "C:/projects/sorting-algorithms/src/main.cpp"
+		},
+		"CMakeFiles/main.dir/src/sort_visualizer.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/projects/sorting-algorithms/src/sort_visualizer.cpp"
 		}
 	}
 }

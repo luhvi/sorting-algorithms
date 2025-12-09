@@ -1,5 +1,5 @@
 ninja_dyndep_version = 1.0
 build CMakeFiles/main.dir/src/main.cpp.obj: dyndep
 
-build CMakeFiles/main.dir/src/bubble_sort.cpp.obj: dyndep
+build CMakeFiles/main.dir/src/sort_visualizer.cpp.obj: dyndep
 
