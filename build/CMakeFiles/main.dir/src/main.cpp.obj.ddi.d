@@ -1,5 +1,5 @@
-CMakeFiles\main.dir\main.cpp.obj.ddi: \
- C:/projects/sorting-algorithms/main.cpp \
+CMakeFiles\main.dir\src\main.cpp.obj.ddi: \
+ C:/projects/sorting-algorithms/src/main.cpp \
  C:/mingw64/include/c++/15.2.0/iostream \
  C:/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -352,4 +352,5 @@ CMakeFiles\main.dir\main.cpp.obj.ddi: \
  C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/Packet.hpp \
  C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/SocketSelector.hpp \
  C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/TcpListener.hpp \
- C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/UdpSocket.hpp
+ C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network/UdpSocket.hpp \
+ C:/projects/sorting-algorithms/include/bubblesort.h

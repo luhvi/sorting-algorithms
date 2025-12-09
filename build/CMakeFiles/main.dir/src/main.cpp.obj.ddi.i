@@ -1,7 +1,7 @@
-# 0 "C:/projects/sorting-algorithms/main.cpp"
+# 0 "C:/projects/sorting-algorithms/src/main.cpp"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "C:/projects/sorting-algorithms/main.cpp"
+# 1 "C:/projects/sorting-algorithms/src/main.cpp"
 # 1 "C:/mingw64/include/c++/15.2.0/iostream" 1 3
 # 40 "C:/mingw64/include/c++/15.2.0/iostream" 3
 # 1 "C:/mingw64/include/c++/15.2.0/bits/requires_hosted.h" 1 3
@@ -67858,7 +67858,7 @@ namespace std
 # 87 "C:/mingw64/include/c++/15.2.0/iostream" 3
 
 }
-# 2 "C:/projects/sorting-algorithms/main.cpp" 2
+# 2 "C:/projects/sorting-algorithms/src/main.cpp" 2
 # 1 "C:/mingw64/include/c++/15.2.0/print" 1 3
 # 39 "C:/mingw64/include/c++/15.2.0/print" 3
 # 1 "C:/mingw64/include/c++/15.2.0/bits/version.h" 1 3
@@ -67969,7 +67969,7 @@ namespace std
 
 
 }
-# 3 "C:/projects/sorting-algorithms/main.cpp" 2
+# 3 "C:/projects/sorting-algorithms/src/main.cpp" 2
 # 1 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Graphics.hpp" 1 3 4
 # 25 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Graphics.hpp" 3 4
        
@@ -112542,7 +112542,7 @@ void sleep(Time duration);
 # 41 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/System.hpp" 2 3 4
 # 47 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Window.hpp" 2 3 4
 # 60 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Graphics.hpp" 2 3 4
-# 4 "C:/projects/sorting-algorithms/main.cpp" 2
+# 4 "C:/projects/sorting-algorithms/src/main.cpp" 2
 
 
 # 1 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Audio.hpp" 1 3 4
@@ -118328,7 +118328,7 @@ bool SoundFileFactory::isWriterRegistered()
 }
 # 172 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp" 2 3 4
 # 40 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Audio.hpp" 2 3 4
-# 7 "C:/projects/sorting-algorithms/main.cpp" 2
+# 7 "C:/projects/sorting-algorithms/src/main.cpp" 2
 # 1 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network.hpp" 1 3 4
 # 25 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network.hpp" 3 4
        
@@ -124251,17 +124251,18 @@ private:
 
 }
 # 41 "C:/projects/sorting-algorithms/build/_deps/sfml-src/include/SFML/Network.hpp" 2 3 4
-# 8 "C:/projects/sorting-algorithms/main.cpp" 2
+# 8 "C:/projects/sorting-algorithms/src/main.cpp" 2
+# 1 "C:/projects/sorting-algorithms/include/bubblesort.h" 1
+       
 
 
-# 9 "C:/projects/sorting-algorithms/main.cpp"
-int bubbleSort()
-{
-  std::println("Bubble Sort!");
-  return 0;
-}
+# 3 "C:/projects/sorting-algorithms/include/bubblesort.h"
+void bubbleSort();
+# 9 "C:/projects/sorting-algorithms/src/main.cpp" 2
 
 int main() {
+  bubbleSort();
+
   sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
 
   const int dataSize { 50 };

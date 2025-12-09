@@ -1,17 +1,15 @@
 #include <iostream>
+#include <print>
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
-
-int bubbleSort()
-{
-  std::cout << "Bubble Sort!";
-  return 0;
-}
+#include "bubblesort.h"
 
 int main() {
+  bubbleSort();
+
   sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
 
   const int dataSize { 50 };
@@ -19,10 +17,10 @@ int main() {
 
   for (int i = 0; i < dataSize; i++)
   {
-    const float height = (i + 1) * 8.f;
-    cols[i].setSize(sf::Vector2f(10.f, height));
+    const float height = (i + 1) * 8.0f;
+    cols[i].setSize(sf::Vector2f(10.0f, height));
     cols[i].setFillColor(sf::Color::Green);
-    cols[i].setPosition(sf::Vector2f(10.f + (i * 12), 480.f - height));
+    cols[i].setPosition(sf::Vector2f(10.0f + (i * 12), 480.0f - height));
   }
 
   while (window.isOpen())
