@@ -1,0 +1,21 @@
+# ninja log v7
+1	40	7876946441887498	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	4a40babf66395ae8
+1	40	7876946441887498	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	4a40babf66395ae8
+41	2074	7876946462219781	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	9178d9312575c64f
+41	2074	7876946462219781	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	9178d9312575c64f
+2074	2159	7876946462249860	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	a6ff0adf7bc9599c
+2074	2159	7876946462249860	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	a6ff0adf7bc9599c
+2160	2213	7876946463609193	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	57d8441ee1c7aee6
+2160	2213	7876946463609193	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	57d8441ee1c7aee6
+2213	2249	7876946463971687	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	cb0b9dc392fe9268
+2213	2249	7876946463971687	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	cb0b9dc392fe9268
+2249	2287	7876946464354209	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	230bc5bb1f3ca823
+2249	2287	7876946464354209	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	230bc5bb1f3ca823
+2287	2324	7876946464719156	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e94328289be0b922
+2287	2324	7876946464719156	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e94328289be0b922
+2324	2360	7876946465084936	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	56ce49bfff9d1db3
+2324	2360	7876946465084936	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	56ce49bfff9d1db3
+2360	2413	7876946465606913	CMakeFiles/vorbis-populate-complete	a8b2a47e895534c
+2360	2413	7876946465606913	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	a8b2a47e895534c
+2360	2413	7876946465606913	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	a8b2a47e895534c
+2360	2413	7876946465606913	C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	a8b2a47e895534c

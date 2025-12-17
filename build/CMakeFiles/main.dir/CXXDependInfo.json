@@ -1,0 +1,36 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/projects/sorting-algorithms/build",
+	"dir-cur-src" : "C:/projects/sorting-algorithms",
+	"dir-top-bld" : "C:/projects/sorting-algorithms/build",
+	"dir-top-src" : "C:/projects/sorting-algorithms",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\projects\\sorting-algorithms\\include",
+		"_deps\\sfml-src\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/projects/sorting-algorithms/build/CMakeFiles/main.dir",
+	"sources" : 
+	{
+		"CMakeFiles/main.dir/src/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/projects/sorting-algorithms/src/main.cpp"
+		},
+		"CMakeFiles/main.dir/src/sort_visualizer.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/projects/sorting-algorithms/src/sort_visualizer.cpp"
+		}
+	}
+}

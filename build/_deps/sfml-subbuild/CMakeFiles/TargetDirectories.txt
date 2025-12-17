@@ -1,3 +1,3 @@
-/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
-/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
-/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir
+C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

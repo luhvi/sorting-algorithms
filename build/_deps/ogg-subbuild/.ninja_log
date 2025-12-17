@@ -1,0 +1,21 @@
+# ninja log v7
+1	40	7876946300907285	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	bfb438a1682c383c
+1	40	7876946300907285	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	bfb438a1682c383c
+40	1320	7876946313702221	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	5fdc9eed8174e0f
+40	1320	7876946313702221	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	5fdc9eed8174e0f
+1320	1403	7876946313733342	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	1365ec335a9bf09f
+1320	1403	7876946313733342	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	1365ec335a9bf09f
+1403	1454	7876946315042333	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	e7389f60d6de73e3
+1403	1454	7876946315042333	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	e7389f60d6de73e3
+1454	1490	7876946315414989	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	3f264268b937352
+1454	1490	7876946315414989	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	3f264268b937352
+1490	1526	7876946315771162	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	be980f2d2b2d7fd2
+1490	1526	7876946315771162	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	be980f2d2b2d7fd2
+1526	1563	7876946316131095	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b74f3e4125c8daee
+1526	1563	7876946316131095	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b74f3e4125c8daee
+1563	1600	7876946316504814	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	1871f7223944f7bb
+1563	1600	7876946316504814	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	1871f7223944f7bb
+1600	1652	7876946317028406	CMakeFiles/ogg-populate-complete	7a3e67f084ac38d
+1600	1652	7876946317028406	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	7a3e67f084ac38d
+1600	1652	7876946317028406	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	7a3e67f084ac38d
+1600	1652	7876946317028406	C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	7a3e67f084ac38d

@@ -62,7 +62,7 @@ set_target_properties(SFML::Audio PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "SFML::System;\$<LINK_ONLY:Vorbis::vorbis>;\$<LINK_ONLY:Vorbis::vorbisfile>;\$<LINK_ONLY:Vorbis::vorbisenc>;\$<LINK_ONLY:FLAC::FLAC>;\$<LINK_ONLY:Threads::Threads>;\$<LINK_ONLY:dl>"
+  INTERFACE_LINK_LIBRARIES "SFML::System;\$<LINK_ONLY:Vorbis::vorbis>;\$<LINK_ONLY:Vorbis::vorbisfile>;\$<LINK_ONLY:Vorbis::vorbisenc>;\$<LINK_ONLY:FLAC::FLAC>;\$<LINK_ONLY:Threads::Threads>"
 )
 
 # Load information for each installed configuration.
@@ -104,7 +104,7 @@ unset(_cmake_import_check_targets)
 # Make sure the targets which have been exported in some other
 # export set exist.
 unset(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets)
-foreach(_target "SFML::System" )
+foreach(_target "SFML::System" "Vorbis::vorbis" "Vorbis::vorbisfile" "Vorbis::vorbisenc" "FLAC::FLAC" )
   if(NOT TARGET "${_target}" )
     set(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets "${${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets} ${_target}")
   endif()

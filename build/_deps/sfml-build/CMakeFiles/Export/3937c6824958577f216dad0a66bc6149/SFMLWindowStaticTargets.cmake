@@ -62,7 +62,7 @@ set_target_properties(SFML::Window PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:X11::X11>;\$<LINK_ONLY:X11::Xrandr>;\$<LINK_ONLY:X11::Xcursor>;\$<LINK_ONLY:X11::Xi>;SFML::System;\$<LINK_ONLY:OpenGL::GL>;\$<LINK_ONLY:UDev::UDev>;\$<LINK_ONLY:dl>"
+  INTERFACE_LINK_LIBRARIES "SFML::System;\$<LINK_ONLY:OpenGL::GL>;\$<LINK_ONLY:winmm>;\$<LINK_ONLY:gdi32>"
 )
 
 # Load information for each installed configuration.
