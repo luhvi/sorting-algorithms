@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/projects/sorting-algorithms/build/_deps/sfml-src")
-  file(MAKE_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/sfml-src")
+if(NOT EXISTS "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-src")
+  file(MAKE_DIRECTORY "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-src")
 endif()
 file(MAKE_DIRECTORY
-  "C:/projects/sorting-algorithms/build/_deps/sfml-build"
-  "C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix"
-  "C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
-  "C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
-  "C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src"
-  "C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-build"
+  "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix"
+  "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
+  "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src"
+  "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

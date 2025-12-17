@@ -1,14 +1,14 @@
 # Target labels
  sfml-populate
 # Source files and their labels
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
-C:/projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+/home/lu/Projects/sorting-algorithms/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

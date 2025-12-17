@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/projects/sorting-algorithms/build/_deps/freetype-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
