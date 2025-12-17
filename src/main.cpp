@@ -11,7 +11,7 @@ int main() {
     
     sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
 
-    std::cout << "Welcome To My Bubble Sort Visualizer \n";
+    std::cout << "Welcome To My Bubble Sort Visualizer\n";
     std::cout << "Enter Data Size (50-1000): " << '\n';
 
     int dataSize{};
