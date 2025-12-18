@@ -1,14 +1,14 @@
 # Target labels
  flac-populate
 # Source files and their labels
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/CMakeFiles/flac-populate
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/CMakeFiles/flac-populate.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test.rule
-/Users/tore/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/CMakeFiles/flac-populate
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/CMakeFiles/flac-populate.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test.rule
+C:/projects/sorting-algorithms/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update.rule

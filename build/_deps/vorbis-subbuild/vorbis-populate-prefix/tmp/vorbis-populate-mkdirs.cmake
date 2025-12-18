@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-src")
-  file(MAKE_DIRECTORY "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-src")
+if(NOT EXISTS "C:/projects/sorting-algorithms/build/_deps/vorbis-src")
+  file(MAKE_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/vorbis-src")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-build"
-  "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix"
-  "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp"
-  "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp"
-  "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src"
-  "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp"
+  "C:/projects/sorting-algorithms/build/_deps/vorbis-build"
+  "C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix"
+  "C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp"
+  "C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp"
+  "C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src"
+  "C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/tore/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()
