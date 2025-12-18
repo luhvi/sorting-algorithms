@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/projects/sorting-algorithms/build/_deps/flac-src/src/libFLAC
-# Build directory: C:/projects/sorting-algorithms/build/_deps/flac-build/src/libFLAC
+# Source directory: /Users/tore/projects/sorting-algorithms/build/_deps/flac-src/src/libFLAC
+# Build directory: /Users/tore/projects/sorting-algorithms/build/_deps/flac-build/src/libFLAC
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

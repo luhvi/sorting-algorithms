@@ -18,18 +18,18 @@ project(freetype-populate NONE)
 
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
-set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
-set(Git_VERSION [==[2.48.1.windows.1]==])
+set(GIT_EXECUTABLE [==[/usr/bin/git]==])
+set(Git_VERSION [==[2.39.5 (Apple Git-154)]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/cmd/git.exe;2.48.1.windows.1]==]
+  [==[/usr/bin/git;2.39.5 (Apple Git-154)]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(freetype-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/freetype/freetype.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "VER-2-13-2" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "C:/mingw64/bin/cmake.exe" "-DFREETYPE_DIR=C:/projects/sorting-algorithms/build/_deps/freetype-src" "-P" "C:/projects/sorting-algorithms/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake"
-                    SOURCE_DIR          "C:/projects/sorting-algorithms/build/_deps/freetype-src"
-                    BINARY_DIR          "C:/projects/sorting-algorithms/build/_deps/freetype-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/freetype/freetype.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "VER-2-13-2" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "/opt/homebrew/bin/cmake" "-DFREETYPE_DIR=/Users/tore/projects/sorting-algorithms/build/_deps/freetype-src" "-P" "/Users/tore/projects/sorting-algorithms/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake"
+                    SOURCE_DIR          "/Users/tore/projects/sorting-algorithms/build/_deps/freetype-src"
+                    BINARY_DIR          "/Users/tore/projects/sorting-algorithms/build/_deps/freetype-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

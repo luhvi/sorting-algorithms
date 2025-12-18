@@ -50,14 +50,14 @@ unset(_cmake_expected_targets)
 add_library(Ogg::ogg STATIC IMPORTED)
 
 set_target_properties(Ogg::ogg PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/projects/sorting-algorithms/build/_deps/ogg-src/include;C:/projects/sorting-algorithms/build/_deps/ogg-build/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-src/include;/Users/tore/projects/sorting-algorithms/build/_deps/ogg-build/include"
 )
 
 # Import target "Ogg::ogg" for configuration ""
 set_property(TARGET Ogg::ogg APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(Ogg::ogg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "C:/projects/sorting-algorithms/build/_deps/sfml-build/lib/libogg.a"
+  IMPORTED_LOCATION_NOCONFIG "/Users/tore/projects/sorting-algorithms/build/_deps/sfml-build/lib/libogg.a"
   )
 
 # This file does not depend on other imported targets which have

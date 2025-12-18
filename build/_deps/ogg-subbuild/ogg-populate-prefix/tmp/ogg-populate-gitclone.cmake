@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt" AND EXISTS "C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitinfo.txt" AND
-  "C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt" IS_NEWER_THAN "C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitinfo.txt")
+if(EXISTS "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt" AND EXISTS "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitinfo.txt" AND
+  "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt'"
+    "'/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/projects/sorting-algorithms/build/_deps/ogg-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/projects/sorting-algorithms/build/_deps/ogg-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/Users/tore/projects/sorting-algorithms/build/_deps/ogg-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -35,9 +35,9 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "C:/Program Files/Git/cmd/git.exe"
+    COMMAND "/usr/bin/git"
             clone --no-checkout --depth 1 --no-single-branch --config "advice.detachedHead=false" "https://github.com/xiph/ogg.git" "ogg-src"
-    WORKING_DIRECTORY "C:/projects/sorting-algorithms/build/_deps"
+    WORKING_DIRECTORY "/Users/tore/projects/sorting-algorithms/build/_deps"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -51,9 +51,9 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Program Files/Git/cmd/git.exe"
+  COMMAND "/usr/bin/git"
           checkout "v1.3.5" --
-  WORKING_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/ogg-src"
+  WORKING_DIRECTORY "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
@@ -64,24 +64,24 @@ endif()
 set(init_submodules TRUE)
 if(init_submodules)
   execute_process(
-    COMMAND "C:/Program Files/Git/cmd/git.exe" 
+    COMMAND "/usr/bin/git" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/projects/sorting-algorithms/build/_deps/ogg-src"
+    WORKING_DIRECTORY "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/projects/sorting-algorithms/build/_deps/ogg-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/Users/tore/projects/sorting-algorithms/build/_deps/ogg-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitinfo.txt" "C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitinfo.txt" "/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/Users/tore/projects/sorting-algorithms/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-gitclone-lastrun.txt'")
 endif()

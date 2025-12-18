@@ -2,5 +2,5 @@
 # The update step will be re-executed if anything in this file changes.
 # No other meaning or use of this file is supported.
 
-command=C:/mingw64/bin/cmake.exe;-DFREETYPE_DIR=C:/projects/sorting-algorithms/build/_deps/freetype-src;-P;C:/projects/sorting-algorithms/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake
-work_dir=C:/projects/sorting-algorithms/build/_deps/freetype-src
+command=/opt/homebrew/bin/cmake;-DFREETYPE_DIR=/Users/tore/projects/sorting-algorithms/build/_deps/freetype-src;-P;/Users/tore/projects/sorting-algorithms/build/_deps/sfml-src/tools/freetype/PatchFreetype.cmake
+work_dir=/Users/tore/projects/sorting-algorithms/build/_deps/freetype-src

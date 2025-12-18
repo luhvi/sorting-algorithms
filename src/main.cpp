@@ -42,13 +42,14 @@ int main() {
                 (620.0f / dataSize) * 0.8f, 
                 visualizer.data[i] * (440.0f / dataSize)
             ));
-            
-            if (i == visualizer.currentJ || i == visualizer.currentJ + 1) {
-                col.setFillColor(sf::Color::White);
-            } else {
-                col.setFillColor(sf::Color::Green);
-            }
-            
+
+            if (!visualizer.isSorting)
+              col.setFillColor(sf::Color::White);
+            else if (i == visualizer.currentJ || i == visualizer.currentJ + 1)
+              col.setFillColor(sf::Color::White);
+            else
+              col.setFillColor(sf::Color::Green);
+
             col.setPosition(sf::Vector2f(
                 10.0f + (i * (620.0f / dataSize)), 
                 480.0f - visualizer.data[i] * (440.0f / dataSize) - 20.0f
