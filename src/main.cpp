@@ -10,18 +10,14 @@ int main() {
     srand(time(0));
     
     sf::RenderWindow window(sf::VideoMode({640, 480}), "Sorting Algorithms");
+    window.setFramerateLimit(60);
 
     std::cout << "Welcome To My Bubble Sort Visualizer\n";
     std::cout << "Enter Data Size (50-1000): " << '\n';
 
     int dataSize{};
     std::cin >> dataSize; 
-
-    if (dataSize > 100)
-      window.setFramerateLimit(60);
-    else
-      window.setFramerateLimit(30);
-
+    
     SortVisualizer visualizer(dataSize);
     visualizer.isSorting = true;
     
